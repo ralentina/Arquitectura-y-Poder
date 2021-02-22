@@ -1,0 +1,74 @@
+
+/* VARIABLES */
+:root {
+--accent: #0074D9;
+--darker: #001f3f;
+}
+
+
+
+/* GENERAL */
+
+body {
+  font-family: 'Proza Libre', sans-serif;  
+}
+
+a, a:link, a:visited {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--darker);
+}
+
+/* LAYOUT */
+#header {
+    height:180px;
+    line-height: 70%;
+    
+}
+
+#map-div {
+    height: 960px;
+    padding:5%;
+}
+
+#side-panel {
+    height: 960px;
+    padding: 2%;
+    font-size:90%;
+}
+
+#map-coords {
+    font-size: 0.8em;
+    padding:2%;
+    margin-top:10px;
+}
+
+#footer {
+    height: 80px;
+    line-height: 80%;
+}
+
+/* SIDEBAR */
+
+.panel-btn {
+    margin: 1px;
+}
+
+.custom-card {
+    font-size: 80%;
+}
+
+/* CONTENT */
+
+#title {
+    padding:3%;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 60%;
+}
+
+#subtitle {
+    line-height: 60%;
+    letter-spacing: 4px !important;
+}
